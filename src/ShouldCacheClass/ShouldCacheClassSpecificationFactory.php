@@ -12,7 +12,8 @@ class ShouldCacheClassSpecificationFactory implements FactoryInterface
         'IsZendAutoloader',
         'IsAnAnnotatedClass',
         'IsZf2BasedAutoloader',
-        'IsCoreClass'
+        'IsCoreClass',
+        'HasMagicDir'
     );
 
     public function __construct($specificationClasses = null)
